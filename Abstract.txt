@@ -1,0 +1,20 @@
+1 + (n7) (mod 30)
+1 + (n11) (mod 30)
+
+work
+
+Under multiplication, the group { Z/mZ , x } is cyclic iff there there exists an element, called a generator=g such that gcd (m,g) = 1
+This is p much an application of lagrange's theorem,
+and since we know (7n)(mod 30) and (11n) are cyclic
+
+The colors of the generator will appear the same way 3 times for n= 1 ... 90 (will drop the kids off in the same equivalence classes 3 times)
+so those 2 generators specifically are easy to solve
+
+all prisms generated will be of 10 equivalence class variations of, <a,b,c> cycles
+of which which have solution 
+
+abc
+cab
+bca
+
+I have no idea how to code this at all, but thats how you solve the last 2
